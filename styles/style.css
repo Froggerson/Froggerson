@@ -109,7 +109,9 @@ out of the box on hover (remove perspective if you don't want the 3D effect */
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
  background-color: white;
- color: black;
+ color: rgb(0,35,65);
+ font-family: 'Dosis', sans-serif;
+ font-size: 20px;
  border-radius:8px;
  text-align: center;
  display: flex;
