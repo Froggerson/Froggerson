@@ -1,7 +1,8 @@
 body{
-  background-image: linear-gradient(rgb(0,31,58), rgb(5,61,80));
+  margin:0;
 
 }
+.cont
 h1{
   color:white;
   text-align: center;
@@ -9,34 +10,43 @@ h1{
   font-family: 'Dosis', sans-serif;
 
 }
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url('bg.png');
-  /* Set a specific height */
-  height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.header {
   position: relative;
+  height:850px;
+  overflow: hidden;
+  background-image:  url("bg.png");
+  repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  color:white;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
+.container{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+  top: 20%;
+  overflow: hidden;
+  text-align: center;
 }
-
+.title{
+  font-family: 'Dosis', sans-serif;
+  color:white;
+  font-size: 60px;
+  text-shadow: 4px 0 0 #2cc7b8, -4px 0 0 #2cc7b8, 0 4px 0 #2cc7b8, 0 -4px 0 #2cc7b8, 2px 2px #2cc7b8, -2px -2px 0 #2cc7b8, 2px -2px 0 #2cc7b8, -2px 2px 0 #2cc7b8;
+}
+.content{
+  background-image: linear-gradient(rgb(0,35,65), rgb(5,61,80));
+  margin:auto;
+  padding-top:.1%;
+}
 .headline{
   text-align: center;
   font-size: 48px;
   color: rgb(44,199,184);
   font-family: 'Dosis', sans-serif;
+  margin:.5%;
 }
 
 .argument{
